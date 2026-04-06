@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Blade & Co. | Premium Barber Shop</title>
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Mobile Menu Overlay & Toggle -->
+  <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <span class="mobile-logo">✂️ Blade & Co.</span>
+      <button class="mobile-close" id="closeMobileBtn"><i class="fas fa-times"></i></button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <div class="mobile-social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+
+  <!-- MAIN WEBSITE -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">✂️ Blade & Co.</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menuIcon">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME SECTION with VIDEO BACKGROUND -->
+    <section id="home" class="hero">
+      <div class="video-bg">
+        <video autoplay muted loop playsinline id="heroVideo">
+          <source src="images/barber.webm" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="overlay-dark"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="glow-text">Sharper Style.<br>Bold Attitude.</h1>
+        <p>Experience masterful cuts, hot towel shaves, and the true culture of barbering.</p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn-primary">OUR SERVICES</a>
+          <a href="#contact" class="btn-outline">BOOK APPOINTMENT</a>
+        </div>
+        <div class="hero-stats">
+          <div><span>5000+</span><br>Happy Clients</div>
+          <div><span>15+</span><br>Expert Barbers</div>
+          <div><span>8+ Years</span><br>Excellence</div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION with animated images -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Legacy</h2>
+          <div class="barber-line"></div>
+          <p>More than a haircut — a ritual of confidence.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>The Blade & Co. Experience</h3>
+            <p>Founded in 2016, Blade & Co. is not just a barbershop — it's a sanctuary for modern gentlemen who appreciate precision, tradition, and creativity. Our master barbers combine classic techniques with contemporary styles, ensuring every client walks out with a fresh, tailored look.</p>
+            <p>We use premium organic products, straight razor finishes, and hot lather for the ultimate grooming experience. Our space breathes vintage energy blended with urban luxury — exposed brick, leather chairs, and the sound of clippers like a symphony.</p>
+            <div class="feature-icons">
+              <div><i class="fas fa-scissors"></i> Precision Fades</div>
+              <div><i class="fas fa-hot-tub"></i> Hot Towel Ritual</div>
+              <div><i class="fas fa-beer"></i> Complimentary Drinks</div>
+            </div>
+          </div>
+          <div class="about-gallery">
+            <div class="gallery-animate">
+              <img src="images/Barber Shop.jpeg" alt="Barber cutting" class="gallery-img">
+              <img src="images/barbervideo.jpeg" alt="Barber video" class="gallery-img">
+              <img src="images/gentlemen barber.jpeg" class="gallery-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION - detailed cards with animated hover -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header light">
+          <h2>Premium Services</h2>
+          <div class="barber-line light-line"></div>
+          <p>Tailored cuts & grooming — from classic to avant-garde.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-cut"></i></div>
+            <h3>Signature Haircut</h3>
+            <p>Wash, precision scissor & clipper work, hot towel finish, and style consultation. Perfect for any hair type.</p>
+            <span class="price">$35+</span>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-blade"></i></div>
+            <h3>Royal Shave</h3>
+            <p>Traditional straight razor shave with steamed towels, exfoliation, and premium after-shave balm. Ultimate relaxation.</p>
+            <span class="price">$45</span>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-beard"></i></div>
+            <h3>Beard Sculpting</h3>
+            <p>Detailed beard trim, shape, hot lather neckline, oil & balm application for that rugged but refined edge.</p>
+            <span class="price">$28</span>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-child"></i></div>
+            <h3>Kids Cut</h3>
+            <p>Friendly atmosphere for young gentlemen, precision cut, and styling. First haircut certificate included.</p>
+            <span class="price">$22</span>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-tint"></i></div>
+            <h3>Hair Tattoo / Design</h3>
+            <p>Custom hair art, line designs, and patterns. Make a statement with creative detailing.</p>
+            <span class="price">$50+</span>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+            <h3>The Executive Package</h3>
+            <p>Haircut + Royal Shave + Scalp massage + beverage. The complete gentleman's reset.</p>
+            <span class="price">$75</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION with animated slider / grid + images -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>Client Stories</h2>
+          <div class="barber-line"></div>
+          <p>Real talk from our loyal community.</p>
+        </div>
+        <div class="testimonial-grid" id="testimonialGrid">
+          <!-- Dynamic testimonials with images & animation -->
+          <div class="testimonial-card">
+            <div class="testimonial-img"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client"></div>
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Hands down the best fade in the city. The atmosphere is electric and the barbers truly listen. I'll never go anywhere else."</p>
+            <h4>— Marcus T.</h4>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-img"><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="client"></div>
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"I brought my son for his first haircut and the team was incredible! Patient, skilled, and gave him a sharp look. 10/10."</p>
+            <h4>— Jessica R.</h4>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-img"><img src="https://randomuser.me/api/portraits/men/75.jpg" alt="client"></div>
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p>"The royal shave changed my life. Hot towels, straight razor — so smooth. Highly recommend booking with David."</p>
+            <h4>— Andre L.</h4>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="testi-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="testi-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION with map and form -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Book Your Chair</h2>
+          <div class="barber-line"></div>
+          <p>Walk-ins welcome, but reservations are recommended.</p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i> 123 Barber Avenue, Addis Ababa, ethiopia</div>
+            <div class="info-item"><i class="fas fa-phone-alt"></i> +251 967 123 456</div>
+            <div class="info-item"><i class="fas fa-envelope"></i> hello@bladeandco.com</div>
+            <div class="hours"><strong>Hours:</strong> Mon-Sat 9am – 8pm | Sun 10am – 4pm</div>
+            <div class="animated-map">
+              <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.312054987502!2d38.76301807483292!3d9.025186791003488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85ce4d5f6c0b%3A0xb7c7b9f6b4f5e8a!2sAddis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus" 
+  width="100%" 
+  height="200" 
+  style="border:0; border-radius: 20px;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number">
+            <select>
+              <option>Select Service</option>
+              <option>Signature Haircut</option>
+              <option>Royal Shave</option>
+              <option>Beard Sculpting</option>
+              <option>Executive Package</option>
+            </select>
+            <textarea rows="3" placeholder="Special requests / date & time"></textarea>
+            <button type="submit" class="btn-primary full-width">REQUEST APPOINTMENT <i class="fas fa-arrow-right"></i></button>
+            <p class="form-message" id="formFeedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">✂️ Blade & Co. — The Art of Grooming</div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>© 2026 Blade & Co. Premium Barber Experience. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
