@@ -6,7 +6,7 @@ A modern, fully responsive barber shop website featuring a video background, ani
 
 ## 🌟 Live Demo
 
-[View Live Demo](#) *(Add your GitHub Pages or hosting link here)*
+[View Live Demo](#) *(https://barberandshop.netlify.app/)*
 
 ## 📋 Features
 
