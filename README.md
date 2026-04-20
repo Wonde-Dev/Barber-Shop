@@ -2,7 +2,7 @@
 
 A modern, fully responsive barber shop website featuring a video background, animated testimonials, service cards, contact form, and a dynamic theme switcher. Built with pure HTML, CSS, and JavaScript.
 
-![Website Preview](https://via.placeholder.com/800x400?text=Blade+%26+Co.+Barber+Shop)
+![Website Preview](https://github.com/Wonde-Dev/Barber-Shop/blob/836e636dcec49021c52491d4c2d5399326d59140/home.png)
 
 ## 🌟 Live Demo
 
